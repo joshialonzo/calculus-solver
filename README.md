@@ -22,3 +22,20 @@ pip install --upgrade pip
 # install flask
 pip install Flask==2.0.3
 ```
+
+## Run Server
+
+```bash
+# Run Flask with flask command
+export FLASK_APP=app
+flask run
+
+# Run Flask with bash script
+bash run_flask.sh
+```
+
+## Test Server
+
+```bash
+curl -l http://localhost:5000/
+```
